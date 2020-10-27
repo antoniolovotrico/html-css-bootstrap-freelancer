@@ -1,8 +1,8 @@
-/* body [class*="col-"] {
+body [class*="col-"] {
   height: 200px;
-  background-color: pink;
+  background-color: inherit;
   border: 1px solid red;
-} */
+}
 
 .display_none {
   display: none;
@@ -14,6 +14,8 @@
 
 .bg_green {
   background-color: #1ABC9C;
+  color: white;
+  text-align: center;
 }
 
 div[role="nav_bar"] {
@@ -25,9 +27,22 @@ div[role="nav_bar"] {
 
 .jumbotron {
   background-color: #1ABC9C;
-  color: white;
   text-transform: uppercase;
+}
+
+.portfolio h2 {
   text-align: center;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container_strict {
+  max-width: 70%;
+  margin: auto;
 }
 
 
