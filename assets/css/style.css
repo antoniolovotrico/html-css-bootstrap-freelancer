@@ -1,0 +1,41 @@
+/* body [class*="col-"] {
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+} */
+
+.display_none {
+  display: none;
+}
+
+.bg_petrol {
+  background-color: #2C3E50;
+}
+
+.bg_green {
+  background-color: #1ABC9C;
+}
+
+div[role="nav_bar"] {
+  height: 100px;
+  color: white;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-color: #1ABC9C;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+  .xs_display_none {
+    display: none;
+  }
+  .xs_display_block {
+    display: block;
+  }
+}
