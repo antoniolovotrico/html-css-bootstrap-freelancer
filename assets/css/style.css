@@ -4,12 +4,17 @@ body [class*="col-"] {
   border: 1px solid red;
 }
 
+.logo_title {
+  text-align: left;
+}
+
 .display_none {
   display: none;
 }
 
 .bg_petrol {
   background-color: #2C3E50;
+  color: white;
 }
 
 .bg_green {
@@ -18,7 +23,12 @@ body [class*="col-"] {
   text-align: center;
 }
 
-div[role="nav_bar"] {
+.bg_dark {
+  background-color: #444444;
+  color: white;
+}
+
+div[role="navigation"] {
   height: 100px;
   color: white;
   line-height: 100px;
@@ -30,17 +40,7 @@ div[role="nav_bar"] {
   text-transform: uppercase;
 }
 
-.portfolio h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.about h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.contact h2 {
+h2 {
   text-align: center;
   text-transform: uppercase;
 }
@@ -52,6 +52,10 @@ div[role="nav_bar"] {
 
 .box_form {
   border: none;
+}
+
+footer {
+  text-align: center;
 }
 
 
