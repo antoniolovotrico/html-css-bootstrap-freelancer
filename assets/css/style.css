@@ -40,9 +40,18 @@ div[role="nav_bar"] {
   text-transform: uppercase;
 }
 
+.contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .container_strict {
   max-width: 70%;
   margin: auto;
+}
+
+.box_form {
+  border: none;
 }
 
 
