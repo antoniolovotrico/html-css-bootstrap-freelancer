@@ -17,6 +17,10 @@
   height: 100px;
 }
 
+.bg_white {
+  color: #2C3E50;
+}
+
 .bg_petrol {
   background-color: #2C3E50;
   text-align: center;
@@ -46,10 +50,10 @@
 }
 
 .jumbotron .line_divisors {
-  color: #white;
+  color: white;
   background-color: white;
   border-radius: 10px;
-  border-color: #white !important;
+  border-color: white !important;
   font-size: 3px;
 } 
 .jumbotron #starlet {
@@ -64,8 +68,7 @@ h1,h2,h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.portfolio h2 {
-  color: #2C3E50;
+h2 {
   font-size: 3.5em;
   padding-top: 70px;
 }
@@ -88,8 +91,9 @@ h1,h2,h3 {
   padding: 0 10px;
 }
 
-p {
+p , label {
   font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
 }
 
 .card_box a > img{
@@ -131,13 +135,71 @@ p {
   display: inline;
 }
 
+.about .line_divisors {
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+  border-color: white !important;
+  font-size: 3px;
+} 
+.about #starlet {
+  font-size: 40px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.about p {
+  text-align: left;
+}
+
+.btn_down {
+  color: white;
+  background-color:#1ABC9C;
+  padding: 20px;
+  font-size: 1.4em;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: 40px 0;
+
+}
+
+.contact .line_divisors {
+  color: #2c3e50;
+  background-color: #2c3e50;
+  border-radius: 10px;
+  border-color: #2c3e50 !important;
+  font-size: 3px;
+} 
+.contact #starlet {
+  font-size: 40px;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.btn_send {
+  color: white;
+  background-color: #1ABC9C;
+  padding: 20px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  font-size: 1.4em;
+}
+
 .container_strict {
-  max-width: 70%;
+  width: 80%;
   margin: auto;
 }
 
 .box_form {
-  border: none;
+  border: white;
+  box-shadow: unset;
+  border-radius: unset;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+label {
+  color: grey;
 }
 
 footer {

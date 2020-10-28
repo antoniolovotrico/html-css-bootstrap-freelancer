@@ -64,7 +64,7 @@
     <main>
 
       <!-- portfolio section -->
-      <section class="portfolio">
+      <section class="portfolio bg_white">
         <div class="container">
           <h2>portfolio</h2>
           <div class="star_divisors">
@@ -145,11 +145,20 @@
       <section class="about bg_green">
         <div class="container_strict">
           <h2>about</h2>
+          <div class="star_divisors">
+            <span class="line_divisors">-----------------------------------------------------------------------------------------------------------</span>
+            <span class="glyphicon glyphicon-star" id="starlet"></span>
+            <span class="line_divisors">-----------------------------------------------------------------------------------------------------------</span>
+          </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6"></div>
-            <div class="col-xs-12 col-sm-6 col-md-6"></div>
+            <div class="col-xs-12 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-4">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-xs-12  col-sm-4  col-md-4">
+              <p>Whether you're a student looking to showcase your work, a professional looking attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
-              <button type="button" class="btn btn-default">Download</button>
+              <button type="button" class="btn btn-default btn_down"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download</button>
             </div>
           </div>
         </div>
@@ -160,25 +169,32 @@
       <section class="contact">
         <div class="container_strict">
           <h2>contact me</h2>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputName2">Name</label>
-              <input type="text" class="form-control box_form" id="exampleInputName2">
-            </div>
-            <div class="form-group">
-              <label>Email address</label>
-              <input type="email" class="form-control box_form" id="exampleInputEmail1">
-            </div>
-            <div class="form-group">
-              <label>Phone Number</label>
-              <textarea class="form-control box_form"></textarea>
-            </div>
-            <div class="form-group">
-              <label>Message</label>
-              <textarea class="form-control box_form" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-default">Send</button>
-          </form>
+          <div class="star_divisors">
+            <span class="line_divisors">-----------------------------------------------------------------------------------------------------------</span>
+            <span class="glyphicon glyphicon-star" id="starlet"></span>
+            <span class="line_divisors">-----------------------------------------------------------------------------------------------------------</span>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputName2">Name</label>
+                  <input type="text" class="form-control box_form" id="exampleInputName2">
+                </div>
+                <div class="form-group">
+                  <label>Email address</label>
+                  <input type="email" class="form-control box_form" id="exampleInputEmail1">
+                </div>
+                <div class="form-group">
+                  <label>Phone Number</label>
+                  <input type="number" class="form-control box_form">
+                </div>
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea class="form-control box_form" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default btn_send">Send</button>
+              </form>
         </div>
       </section>
       <!-- /contact section -->
