@@ -4,17 +4,23 @@ body [class*="col-"] {
   border: 1px solid red;
 }
 
-.logo_title {
-  text-align: left;
+.navbar a, .navbar-brand, .navbar-toggle {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 75px !important;
+  font-size: 2em;
 }
 
-.display_none {
-  display: none;
+.navbar li a {
+  font-size: 1.2em;
 }
-
 .navbar_bg_petrol {
   background-color: #2C3E50;
   text-transform: uppercase;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  height: 100px;
 }
 
 .bg_petrol {
@@ -34,21 +40,25 @@ body [class*="col-"] {
   text-align: center;
 }
 
-div[role="navigation"] {
-  height: 100px;
-  color: white;
-  line-height: 100px;
-  text-transform: uppercase;
-}
-
 .jumbotron {
   background-color: #1ABC9C;
   text-transform: uppercase;
 }
 
-h2 {
+.jumbotron img {
+  width: 240px;
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+
+h1,h2,h3 {
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
 }
 
 .container_strict {
