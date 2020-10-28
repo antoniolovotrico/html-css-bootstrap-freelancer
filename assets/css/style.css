@@ -5,6 +5,11 @@
   font-size: 2em;
 }
 
+.navbar-toggle {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
 .navbar li a {
   font-size: 1.2em;
 }
