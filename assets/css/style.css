@@ -127,6 +127,10 @@ p {
   display: none; 
 }
 
+.card_box:hover #pluss {
+  display: inline;
+}
+
 .container_strict {
   max-width: 70%;
   margin: auto;
