@@ -8,6 +8,11 @@
 .navbar li a {
   font-size: 1.2em;
 }
+
+.navbar li:hover a {
+  color: #1ABC9C !important;
+}
+
 .navbar_bg_petrol {
   background-color: #2C3E50;
   text-transform: uppercase;
@@ -24,6 +29,7 @@
 .bg_petrol {
   background-color: #2C3E50;
   text-align: center;
+  color: white;
 }
 
 .bg_green {
@@ -160,9 +166,12 @@ p , label {
   border-radius: 10px;
   border: 2px solid white;
   margin: 40px 0;
-
 }
 
+.btn_down:hover {
+  background-color: white;
+  color: #2C3E50;
+}
 .contact .line_divisors {
   color: #2c3e50;
   background-color: #2c3e50;
@@ -185,6 +194,11 @@ p , label {
   font-size: 1.4em;
 }
 
+.btn_send:hover {
+  background-color: #159A80;
+  color: white;
+}
+
 .container_strict {
   width: 80%;
   margin: auto;
@@ -205,6 +219,39 @@ label {
 footer {
   text-align: center;
 }
+
+font {
+  color: #1ABC9C;
+}
+
+footer h3 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  padding-bottom: 40px;
+}
+
+.btn_social {
+  border: 2px solid white;
+  padding: 10px 12.5px;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.4em;
+  margin: 0 5px;
+}
+
+.btn_social:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+h6 {
+  padding: 20px 0;
+}
+
+
 
 
 @media screen and (max-width:768px) {
