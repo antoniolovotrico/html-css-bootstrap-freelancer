@@ -12,9 +12,14 @@ body [class*="col-"] {
   display: none;
 }
 
+.navbar_bg_petrol {
+  background-color: #2C3E50;
+  text-transform: uppercase;
+}
+
 .bg_petrol {
   background-color: #2C3E50;
-  color: white;
+  text-align: center;
 }
 
 .bg_green {
@@ -23,9 +28,10 @@ body [class*="col-"] {
   text-align: center;
 }
 
-.bg_dark {
-  background-color: #444444;
+.bg_lightmusk {
+  background-color: #3A546D;
   color: white;
+  text-align: center;
 }
 
 div[role="navigation"] {
