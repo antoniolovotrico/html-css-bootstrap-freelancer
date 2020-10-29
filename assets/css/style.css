@@ -1,13 +1,6 @@
 .navbar a, .navbar-brand, .navbar-toggle {
   color: white !important;
   font-family: 'Montserrat', sans-serif;
-  line-height: 75px !important;
-  font-size: 2em;
-}
-
-.navbar-toggle {
-  margin-right: 30px;
-  margin-top: 30px;
 }
 
 .navbar li a {
@@ -24,7 +17,7 @@
   margin: 0;
   border: 0;
   border-radius: 0;
-  height: 100px;
+  padding: 20px 0;
 }
 
 .bg_white {
@@ -127,6 +120,7 @@ p , label {
 .card_box:hover .overlay_box{
   background-color: rgba(127, 255, 212, 0.5);
   cursor: pointer;
+  display: inline;
 }
 
 .overlay_box {
@@ -134,7 +128,8 @@ p , label {
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;  
+  width: 100%; 
+  display: none; 
 }
 
 #pluss {
@@ -142,12 +137,7 @@ p , label {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  display: none; 
-}
-
-.card_box:hover #pluss {
-  display: inline;
+  transform: translate(-50%, -50%);   
 }
 
 .about .line_divisors {
